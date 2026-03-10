@@ -15,6 +15,16 @@ public class MapCollection {
             "  *****   "
         });
 
+        charMap.put('O', new String[] {
+            "  *****   ",
+            " *     *  ",
+            " *     *  ",
+            " *     *  ",
+            " *     *  ",
+            " *     *  ",
+            "  *****   "
+        });
+
         charMap.put('P', new String[] {
             "  *****   ",
             " *     *  ",
@@ -66,4 +76,5 @@ public class MapCollection {
         String message = "OOPS";
         displayBanner(message, charMap);
     }
+
 }
